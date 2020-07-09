@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route ('/')
 def home():
-    return 'this is home page, <h1> WELCOME HOME</h1>'
+    return 'This is my home page., <h1> WELCOME HOME</h1>'
 
 @app.route ('/about')
 def about():
@@ -11,7 +11,7 @@ def about():
 
 @app.route('/error')
 def error():
-    return '<h1> you got error</h1>'
+    return '<h1> You got an error!</h1>'
 
 @app.route('/hello')
 def hello():
@@ -38,10 +38,10 @@ def admin():
 # </html>
 #    """
 #    return greet_format
-    #return f'<h1> HELLO, {name}! </h1>'
 
 
-@app.route('/greet_admin')
+
+@app.route('/greet-admin')
 def greet_admin():
     return redirect(url_for('greet', name='Master Admin!'))
 
@@ -64,4 +64,4 @@ def evens():
 
 if __name__ == '__main__':
     #app.run(debug=True)
-    app.run('0.0.0.0', port = 80)
+    app.run('0.0.0.0', port=80)

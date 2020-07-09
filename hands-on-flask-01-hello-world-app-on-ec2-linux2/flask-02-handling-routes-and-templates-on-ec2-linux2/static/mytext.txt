@@ -1,1 +1,1 @@
-This is a text file in static folder
+This is a text file in "static folder".
