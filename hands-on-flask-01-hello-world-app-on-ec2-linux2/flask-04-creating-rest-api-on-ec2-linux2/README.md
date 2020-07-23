@@ -34,7 +34,7 @@ At the end of the this hands-on training, students will be able to;
 
 - Part 4 - Testing the API Implementation on EC2 Instance
 
-## Part 1 - Getting to know REST API
+## Part 1 - Getting to know REST API:
 
 [REST (REpresentational State Transfer)](https://en.wikipedia.org/wiki/Representational_state_transfer) is a software architectural style that defines a set of constraints to be used for creating Web services. 
 
@@ -69,7 +69,7 @@ Within this hands-on, we will create a `To Do List` Application as Web Service. 
 | `DELETE`  |	Delete a resource              	    | http://api.example.com/todos/123 (delete the todo with id=123) |
 
 
-## Part 2 - Creating REST API Implementation with Flask framework using `sqlite` database on GitHub Repo 
+## Part 2 - Creating REST API Implementation with Flask framework using `sqlite` database on GitHub Repo: 
 
 - Create a `To Do` application as web service with base URL of `http://[public-dns-name-of-ec2]/` and expose the resources listed above within. 
 
@@ -147,7 +147,7 @@ Within this hands-on, we will create a `To Do List` Application as Web Service. 
 
 - Push all the files to remote repo `clarusway-python-workshop` on GitHub.
 
-## Part 3 - Deploying the REST API Implementation with Flask Server on Amazon Linux 2 EC2 Instance
+## Part 3 - Deploying the REST API Implementation with Flask Server on Amazon Linux 2 EC2 Instance:
 
 - Launch an Amazon EC2 instance using the Amazon Linux 2 AMI with security group allowing SSH (Port 22) and HTTP (Port 80) connections.
 
@@ -163,7 +163,7 @@ Within this hands-on, we will create a `To Do List` Application as Web Service. 
 
 - Install `flask_sqlalchemy`.
 
-## Part 4 - Testing the API Implementation on EC2 Instance
+## Part 4 - Testing the API Implementation on EC2 Instance:
 
 - Download the web application file from GitHub repo.
 
